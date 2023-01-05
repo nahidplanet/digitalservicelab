@@ -16,18 +16,18 @@ const Header = () => {
 							<nav className="main-nav">
 								{/* <!-- ***** Logo Start ***** --> */}
 								<Link href="/" className="logo">
-								<Image  src={logo} alt={"digital service lab"} width="94" height="44" />
+									<Image src={logo} alt={"digital service lab"} width="94" height="44" />
 
 								</Link>
 								{/* <!-- ***** Logo End ***** --> */}
 								{/* <!-- ***** Menu Start ***** --> */}
 								<ul className="nav">
-									<li className="scroll-to-section"><Link href="/" className="active">Home</Link></li>
+									<li className="scroll-to-section"><Link href="#top" className="active">Home</Link></li>
 									<li className="scroll-to-section"><a href="#services">Services</a></li>
-									<li className="scroll-to-section"><Link href="/about">About</Link></li>
-									<li className="scroll-to-section"><a href="#portfolio">Portfolio</a></li>
-									<li className="scroll-to-section"><a href="#video">Videos</a></li>
-									<li className="scroll-to-section"><a href="#contact">Contact Us</a></li>
+									<li className="scroll-to-section"><a href="#blog">Blog</a></li>
+									<li className="scroll-to-section"><Link href="#about">About</Link></li>
+									<li className="scroll-to-section"><a href="#portfolio">Testimonials</a></li>
+									<li className="scroll-to-section"><a href="#pricing">Pricing</a></li>
 									<li className="scroll-to-section"><div className="main-red-button-hover"><a href="#contact">Contact Us Now</a></div></li>
 								</ul>
 								<a className='menu-trigger'>

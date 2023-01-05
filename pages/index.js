@@ -7,6 +7,8 @@ import Service from '../components/Service';
 import About from '../components/About';
 import Testimonials from '../components/Testimonials';
 import Pricing from '../components/Pricing';
+import Subscribe from '../components/Subscribe';
+import Blog from '../components/Blog';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,9 +26,12 @@ const index = () => {
       <main className={styles.main}>
         <HeroSection></HeroSection>
         <Service></Service>
+        <Blog></Blog>
         <About></About>
         <Testimonials></Testimonials>
         <Pricing></Pricing>
+        <Subscribe></Subscribe>
+        
       </main>
     </>
   );

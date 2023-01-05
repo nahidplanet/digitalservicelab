@@ -73,7 +73,7 @@ const HeroSection = () => {
 							<div className="col-lg-6 align-self-baseline overflow-hidden ">
 								<div className="owl-carousel owl-banner">
 									<Slider {...settings} className="w">
-										<div className="item header-text">
+										<div className="item header-text ">
 											<h6>Welcome to Onix Digital</h6>
 											<h2>Build <em>your website</em> the best in <span>SEO</span>?</h2>
 											<p>This is a professional looking HTML Bootstrap 5 website template brought to you by TemplateMo website.</p>

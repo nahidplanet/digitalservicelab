@@ -68,7 +68,7 @@ const Service = () => {
 	return (
 		<div id="services" className="our-services section d-block">
 			<div className="services-right-dec">
-				<img src="assets/imgs/services-right-dec.png" alt="pic" />
+				<img src="assets/images/services-right-dec.png" alt="pic" />
 			</div>
 			<div className="container">
 				<div className="services-left-dec">

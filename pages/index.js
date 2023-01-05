@@ -5,6 +5,8 @@ import styles from '../styles/Home.module.css'
 import HeroSection from '../components/HeroSection';
 import Service from '../components/Service';
 import About from '../components/About';
+import Testimonials from '../components/Testimonials';
+import Pricing from '../components/Pricing';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,6 +25,8 @@ const index = () => {
         <HeroSection></HeroSection>
         <Service></Service>
         <About></About>
+        <Testimonials></Testimonials>
+        <Pricing></Pricing>
       </main>
     </>
   );

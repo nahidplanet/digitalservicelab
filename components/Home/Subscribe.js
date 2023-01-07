@@ -3,18 +3,18 @@ import React from 'react';
 const Subscribe = () => {
 	return (
 		<>
-			<div id="subscribe" class="subscribe">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="inner-content">
-								<div class="row">
-									<div class="col-lg-10 offset-lg-1">
+			<div id="subscribe" className="subscribe">
+				<div className="container">
+					<div className="row">
+						<div className="col-lg-12">
+							<div className="inner-content">
+								<div className="row">
+									<div className="col-lg-10 offset-lg-1">
 										<h2>Know Your Website SEO Score by Email</h2>
 										<form id="subscribe" action="" method="get">
 											<input type="text" name="website" id="website" placeholder="Your Website URL" required />
 											<input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required />
-											<button type="submit" id="form-submit" class="main-button ">Subscribe</button>
+											<button type="submit" id="form-submit" className="main-button ">Subscribe</button>
 										</form>
 									</div>
 								</div>

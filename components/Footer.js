@@ -5,8 +5,8 @@ import logo from "../public/assets/images/logo.png";
 
 const Footer = () => {
 	return (
-		<footer>
-			<div className="container">
+		<footer className='border-top '>
+			<div className="container mt-5">
 				<div className="row">
 					<div className="col-lg-3">
 						<div className="about footer-item">

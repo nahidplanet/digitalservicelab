@@ -9,7 +9,7 @@ const Header = () => {
 		<div>
 
 			{/* <!-- ***** Header Area Start ***** --> */}
-			<header className="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+			<header className="header-area header-sticky  wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
 				<div className="container">
 					<div className="row">
 						<div className="col-12">
